@@ -1,8 +1,8 @@
 # Laravel Go Cardless
 
-[![Total Downloads](https://poser.pugx.org/ollywarren/laravel-go-cardless/downloads)](https://packagist.org/packages/ollywarren/laravel-go-cardless)
-[![Latest Stable Version](https://poser.pugx.org/ollywarren/laravel-go-cardless/v/stable)](https://packagist.org/packages/ollywarren/laravel-go-cardless)
-[![License](https://poser.pugx.org/ollywarren/laravel-go-cardless/license)](https://packagist.org/packages/ollywarren/makepackage)
+[![Total Downloads](https://poser.pugx.org/Devop360Technologies/laravel-go-cardless/downloads)](https://packagist.org/packages/Devop360Technologies/laravel-go-cardless)
+[![Latest Stable Version](https://poser.pugx.org/Devop360Technologies/laravel-go-cardless/v/stable)](https://packagist.org/packages/Devop360Technologies/laravel-go-cardless)
+[![License](https://poser.pugx.org/Devop360Technologies/laravel-go-cardless/license)](https://packagist.org/packages/Devop360Technologies/makepackage)
 
 A Laravel 5.5 Wrapper for the Go Cardless PHP Client Library. This package provides simple elegant access to the Go Cardless PHP Client API from across the Laravel Application.
 
@@ -15,7 +15,7 @@ The included helper method makes accessing the underlying methods as easy as:
 
 Simply require the package through composer and let the Laravel Package Auto Discovery do the rest.
 
-``` composer require ollywarren/laravel-go-cardless ```
+``` composer require Devop360Technologies/laravel-go-cardless ```
 
 Publish the vendor configuration:
 
@@ -33,7 +33,7 @@ GOCARDLESS_TOKEN="<YOUR API TOKEN>"
 
 Use composer to add it to your project dependencies:
 
-``` composer require ollywarren/laravel-go-cardless ```
+``` composer require Devop360Technologies/laravel-go-cardless ```
 
 
 Then inside your ```config/app.php```
@@ -41,7 +41,7 @@ Then inside your ```config/app.php```
 
 Add the package service provider to the providers array:
 
-``` Ollywarren\LaravelGoCardless\GoCardlessServiceProvider::class, ```
+``` Devop360Technologies\LaravelGoCardless\GoCardlessServiceProvider::class, ```
 
 Finally for good measure dump the composer autoloader to make sure we've pulled in the helper method:
 

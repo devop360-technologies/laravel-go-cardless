@@ -1,8 +1,8 @@
 <?php
-namespace Ollywarren\LaravelGoCardless;
+namespace Devop360Technologies\LaravelGoCardless;
 
 use Illuminate\Support\ServiceProvider;
-use Ollywarren\LaravelGoCardless\Services\GoCardlessService;
+use Devop360Technologies\LaravelGoCardless\Services\GoCardlessService;
 
 class GoCardlessServiceProvider extends ServiceProvider
 {
