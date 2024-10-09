@@ -3,7 +3,7 @@ if (!function_exists('gocardless')) {
     /**
      * Get the Go Cardless instance.
      *
-     * @return \Ollywarren\LaravelGoCardless\GoCardlessServiceProvider
+     * @return \Devop360Technologies\LaravelGoCardless\GoCardlessServiceProvider
      */
     function gocardless()
     {

@@ -18,13 +18,13 @@
             "src/Helpers/Helpers.php"
         ],
         "psr-4": {
-            "Ollywarren\\LaravelGoCardless\\": "src/"
+            "Devop360Technologies\\LaravelGoCardless\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ollywarren\\LaravelGoCardless\\GoCardlessServiceProvider"
+                "Devop360Technologies\\LaravelGoCardless\\GoCardlessServiceProvider"
             ]
         }
     }
