@@ -1,21 +1,21 @@
 {
-    "name": "ollywarren/laravel-go-cardless",
+    "name": "devop360-technologies/laravel-go-cardless",
     "description": "A Laravel Wrapper for the Go Cardless PHP Client Library",
     "keywords": ["laravel","go cardless", "composer", "package"],
-    "homepage": "https://github.com/ollywarren/laravel-go-cardless",
+    "homepage": "https://github.com/devop360-technologies/laravel-go-cardless",
     "require": {
         "gocardless/gocardless-pro": "^3.0"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Olly Warren",
-            "email": "olly@ollywarren.com"
+            "name": "Muhammad Abdullah",
+            "email": "muhammadabdullah.developer@gmail.com"
         }
     ],
     "autoload": {
         "files": [
-            "src/helpers/helpers.php"
+            "src/Helpers/Helpers.php"
         ],
         "psr-4": {
             "Ollywarren\\LaravelGoCardless\\": "src/"
