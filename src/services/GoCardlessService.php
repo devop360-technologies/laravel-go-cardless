@@ -1,6 +1,6 @@
 <?php
 
-namespace Ollywarren\LaravelGoCardless\Services;
+namespace Devop360Technologies\LaravelGoCardless\Services;
 
 use GoCardlessPro\Client;
 use BadMethodCallException;
